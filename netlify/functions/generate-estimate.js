@@ -36,7 +36,7 @@ exports.handler = async function (event, context) {
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-3-5-sonnet-20241022', // Updated to latest sonnet model
+        model: 'claude-haiku-4-5-20251001', // Changed to Haiku 4.5
         max_tokens: 4000,
         messages: [{ role: 'user', content: prompt }],
       }),
