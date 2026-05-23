@@ -1868,7 +1868,7 @@ Return EXACTLY this JSON structure (no markdown, no backticks, just raw JSON):
 }`;
 
       try {
-        const response = await fetch('/api/generate-estimate', {
+        const response = await fetch('/.netlify/functions/generate-estimate', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
