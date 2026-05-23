@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.fastestimate.co/sitemap.xml
+
+# Crawl delay (optional - be friendly to crawlers)
+Crawl-delay: 1
